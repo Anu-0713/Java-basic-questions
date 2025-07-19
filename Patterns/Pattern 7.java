@@ -12,14 +12,14 @@ Output:
 */
 public class Solution {
     public static void nStarTriangle(int n) {
-        for(int i=0;i<n;i++)
+      for(int i=0;i<n;i++)
         {   //space
             for(int j=0;j<n-i-1;j++)
             {
              System.out.print(" ");   
             }
             //star
-            for(int j=0;j<2*i+1;j++)
+            for(int j=0;j<2*i+1;j++)//Example 4nd row with n=5 has 7 stars i.e 2x3+1=7
             {
                 System.out.print("*");
             }
