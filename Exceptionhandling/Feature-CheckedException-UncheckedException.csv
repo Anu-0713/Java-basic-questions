@@ -1,0 +1,7 @@
+"Feature","Checked Exception","Unchecked Exception"
+"When Detected","Compile time","Runtime"
+"Compiler Requirement","Must be handled or declared","Not required to be handled"
+"Parent Class","Subclass ofException(excludingRuntimeException)","Subclass ofRuntimeException"
+"Common Causes","External issues (I/O, DB)","Programming bugs, logic errors"
+"Examples","IOException,SQLException","NullPointerException,ArrayIndexOutOfBoundsException"
+"Handling","try-catchorthrowsrequired","Optional handling"
